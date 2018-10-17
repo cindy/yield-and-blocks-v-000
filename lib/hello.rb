@@ -4,5 +4,3 @@ def hello_t(names)
   end
   names
 end
-
-# call your method here!
