@@ -1,5 +1,7 @@
 def hello_t(names)
-  yield(names)
+  for names.each do
+    yield(names[i])
+  end
   names
 end
 
