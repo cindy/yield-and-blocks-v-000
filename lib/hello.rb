@@ -1,5 +1,5 @@
 def hello_t(names)
-  yield.each(names)
+  yield(names)
   names
 end
 
