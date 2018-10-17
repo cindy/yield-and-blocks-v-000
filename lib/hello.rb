@@ -1,6 +1,5 @@
 def hello_t(array)
-  yield
+  puts yield
 end
 
 # call your method here!
-
