@@ -3,7 +3,7 @@ def hello_t(names)
     names.each do |name|
       yield(name)
     end
-  else 
+  else
     puts "Hey! No block was given!"
   names
 end
